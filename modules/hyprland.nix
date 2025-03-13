@@ -51,7 +51,7 @@ in
       systemd.enable = false;
       xwayland.enable = true;
       package = hypr;
-      # portalPackage = hypr-xdg;
+      portalPackage = hypr-xdg;
       settings = {
         env = [
           "GIO_EXTRA_MODULES, ${pkgs.gvfs}/lib/gio/modules:$GIO_EXTRA_MODULES"
