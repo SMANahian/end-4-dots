@@ -35,7 +35,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Illogical Impulse AGS Launcher";
-    homepage = "https://github.com/end-4/dots-hyprland";
+    homepage = "https://github.com/SMANahian/dots-hyprland";
     license = lib.licenses.gpl3;
     mainProgram = "illogical-impulse-ags";
   };
