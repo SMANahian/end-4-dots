@@ -14,5 +14,6 @@ self: anyrun: ags: { ... }:
     ./hyprlock.nix
     ./theme.nix
     ./ags.nix
+    ./gammastep.nix
   ];
 }
