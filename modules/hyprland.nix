@@ -65,8 +65,8 @@ in
         #!
         ##! Essentials for beginners
 
-        bind = Super, T, exec, foot # Launch foot (terminal)
-        bind = Super, Return, exec, foot # [hidden] # In case you're from i3 or its Wayland clone
+        bind = Super, T, exec, kitty # Launch kitty (terminal)
+        bind = Super, Return, exec, kitty # [hidden] # In case you're from i3 or its Wayland clone
         bind = , Super, exec, true # Open app launcher
         bind = Ctrl+Super, T, exec, ~/.config/ags/scripts/color_generation/switchwall.sh # Change wallpaper
         ##! Actions
@@ -241,7 +241,7 @@ in
 
         #!
         ##! Apps
-        bind = Super, T, exec, # Launch foot (terminal)
+        bind = Super, T, exec, # Launch kitty (terminal)
         bind = Super, Z, exec, Zed # Launch Zed (editor)
         bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
         bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
