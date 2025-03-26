@@ -4,11 +4,9 @@ stdenv.mkDerivation {
   pname = "illogical-impulse-ags";
   version = "latest";
 
-  src = fetchFromGitHub {
-    owner = "SMANahian";
-    repo = "dots-hyprland";
-    rev = "6ce7d07b5b0d26afff64002341fbfcfde0e02369";
-    sha256 = "sha256-yJf/B7ZT3Y9Is7xMoVnvZZl/qBWxn7BLpz9Ab6v7Hys=";
+  src = builtins.path {
+    path = /home/smanahian/GitHub/dots-hyprland;
+    name = "dots-hyprland";
   };
 
   nativeBuildInputs = [ makeWrapper ];
