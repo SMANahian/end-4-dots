@@ -298,6 +298,7 @@ in
           "wl-paste --type text --watch cliphist store"
           "wl-paste --type image --watch cliphist store"
           "hyprctl setcursor Bibata-Modern-Ice 24"
+          "gammastep"
         ];
         general = {
           # Gaps and border
